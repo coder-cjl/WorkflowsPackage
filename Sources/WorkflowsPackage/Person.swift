@@ -7,21 +7,27 @@
 
 import Foundation
 
-class Person {
+public class Person {
     
-    func sayA() -> String {
+    public init() {}
+    
+    public func sayA() -> String {
         return "a"
     }
     
-    func sayB() -> String {
+    public func sayB() -> String {
         return "b"
     }
     
-    func sayC() -> String {
+    public func sayC() -> String {
         return "c"
     }
 
-    func sayD() -> String {
+    public func sayD() -> String {
         return "d"
+    }
+
+    public func sayE() -> String {
+        return "e"
     }
 }
