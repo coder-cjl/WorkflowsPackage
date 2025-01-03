@@ -20,10 +20,10 @@ jobs:
     # - name: Install swiftenv
     #   run: brew install kylef/formulae/swiftenv
 
-    - name: Install Swift 6
-      run: |
-          brew update
-          brew install swift
+#    - name: Install Swift 6
+#      run: |
+#          brew update
+#          brew install swift
 
     # - name: Use Swift 6
     #   run: swiftenv global 6.0
@@ -31,8 +31,8 @@ jobs:
     # - name: Verify Swift version
     #   run: swift --version
 
-    - name: Resolve Dependencies
-      run: swift package resolve
+#    - name: Resolve Dependencies
+#      run: swift package resolve
       
     - name: Build
       run: swift build -v
