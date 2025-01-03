@@ -20,4 +20,8 @@ class Person {
     func sayC() -> String {
         return "c"
     }
+
+    func sayD() -> String {
+        return "d"
+    }
 }
