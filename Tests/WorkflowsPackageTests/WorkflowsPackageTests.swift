@@ -63,4 +63,11 @@ class WorkflowsPackageTests: XCTestCase {
         let result = person.sayE()
         XCTAssertEqual(result, "e")
     }
+    
+    /// 一个测试用例
+    func testExample6() throws {
+        let person = Person()
+        let result = person.sayA()
+        XCTAssertEqual(result, "A")
+    }
 }
