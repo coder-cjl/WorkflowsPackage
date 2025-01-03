@@ -17,12 +17,10 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    # 指定swift版本为6.0.0
-    - name: 指定swift版本为6.0.0
-      run: swiftenv global 6.0.0  
-
     - name: Resolve Dependencies
-      run: swift package resolve
+      run: swift package clean |
+           swift package reset |
+           swift package resolve
 
     - name: Build
       run: swift build -v
