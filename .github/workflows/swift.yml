@@ -12,8 +12,8 @@ on:
 jobs:
   build:
 
-    # runs-on: macos-latest
-    runs-on: Ubuntu 22.04
+    runs-on: macos-latest
+    # runs-on: Ubuntu 22.04
 
     steps:
     - uses: actions/checkout@v4
