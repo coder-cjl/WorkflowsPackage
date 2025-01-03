@@ -11,6 +11,9 @@ let package = Package(
             name: "WorkflowsPackage",
             targets: ["WorkflowsPackage"]),
     ],
+    dependencies: [
+           .package(name: "Testing", url: "https://github.com/swiftlang/swift-testing.git", from: "6.0.3"), // 如果是远程依赖
+       ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
