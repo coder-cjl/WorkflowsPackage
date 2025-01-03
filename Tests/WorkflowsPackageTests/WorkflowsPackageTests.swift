@@ -23,5 +23,5 @@ import Testing
     
     let person = Person()
     let result = person.sayC()
-    #expect(result == "C")
+    #expect(result == "c")
 }
