@@ -5,7 +5,6 @@ import Testing
 }
 
 @Test func example2() async throws {
-    
     let person = Person()
     let result = person.sayA()
     #expect(result == "a")
@@ -13,14 +12,12 @@ import Testing
 
 
 @Test func example3() async throws {
-    
     let person = Person()
     let result = person.sayB()
     #expect(result == "b")
 }
 
 @Test func example4() async throws {
-    
     let person = Person()
     let result = person.sayC()
     #expect(result == "c")
