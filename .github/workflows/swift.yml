@@ -17,12 +17,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-
-    - name: Resolve Dependencies
-      run: swift package clean |
-           swift package reset |
-           swift package resolve
-
+    
     - name: Build
       run: swift build -v
       
